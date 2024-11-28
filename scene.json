@@ -1,0 +1,52 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "Word Search",
+    "description": "Word Search minigame",
+    "navmapThumbnail": "images/scene-thumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "Decentraland",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "-75,-46"
+    ],
+    "base": "-75,-46"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": [
+          3,
+          14
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          11,
+          12
+        ]
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 2,
+        "z": 4
+      }
+    }
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  }
+}
